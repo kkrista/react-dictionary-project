@@ -5,7 +5,7 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <h1>Dictionary App </h1>
+      <h1>Dictionary App</h1>
       <Dictionary defaultWord="blossom" />
       <footer>
         This project was coded by{" "}

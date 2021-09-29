@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   padding: 50px;
   font-family: "Roboto Slab", serif;
-  background-color: #95818d10;
+  background-color: black;
   color: #122932;
   text-align: center;
 }
@@ -14,6 +14,11 @@ a {
 a:hover {
   color: #db288b;
 }
+
+footer {
+  font-size: 12px;
+}
+
 @media (max-width: 767px) {
   body {
     padding: 5px;
