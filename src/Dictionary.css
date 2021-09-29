@@ -1,0 +1,45 @@
+.Dictionary section {
+  background-color: white;
+  padding: 15px;
+  text-align: left;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 0 10px 20px rgb(0 0 0 /10%);
+}
+
+#search-form {
+  width: 75%;
+  padding: 6px 4px;
+}
+
+#search-button {
+  width: 10%;
+  background-color: #db84b4;
+  border-radius: 5px;
+  color: white;
+  border-color: white;
+  margin: 10px;
+  padding-bottom: 9px;
+}
+
+#search-button:hover {
+  background-color: #db288b;
+}
+@media (max-width: 767px) {
+  #search-form {
+    width: 90%;
+  }
+  .Dictionary h2 {
+    text-align: center;
+  }
+  #search-button {
+    width: 90%;
+  }
+  form {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .suggestions {
+    font-size: 12px;
+  }
+}
