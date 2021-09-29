@@ -3,10 +3,12 @@ body {
   padding: 50px;
   font-family: "Roboto Slab", serif;
   background: linear-gradient(
-    172deg,
-    rgb(255, 251, 254) 0%,
-    rgb(250, 234, 247) 50%,
-    rgb(250, 205, 240) 100%
+    177deg,
+    rgb(255, 254, 254) 0%,
+    rgb(253, 251, 253) 0%,
+    rgb(255, 239, 255) 0%,
+    rgb(250, 234, 245) 17%,
+    rgb(241, 233, 240) 35%
   );
   color: #122932;
   text-align: center;
@@ -19,7 +21,7 @@ body {
 .App-logo {
   max-width: 100%;
   display: block;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 60px auto;
 }
 
 h1 {
