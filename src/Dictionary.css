@@ -13,13 +13,13 @@
 }
 
 #search-button {
-  width: 8%;
   background-color: #db84b4;
   border-radius: 5px;
   color: white;
   border-color: white;
   margin: 10px;
   padding-bottom: 9px;
+  max-width: 100%;
 }
 
 #search-button:hover {
