@@ -24,7 +24,8 @@ export default function Dictionary(props) {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     axios.get(apiUrl).then(handleResponse);
 
-    let pexelsApiKey = "";
+    let pexelsApiKey =
+      "563492ad6f917000010000015173b67705d1468ba14865c565149cc2";
     let pexelsUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=6`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsUrl, { headers: headers }).then(handlePexelResponse);
@@ -66,7 +67,7 @@ export default function Dictionary(props) {
             />
           </form>
           <span className="suggestions">
-            suggested words: science, power, history...
+            suggested words: sport, wine, history...
           </span>
         </section>
         <section>
