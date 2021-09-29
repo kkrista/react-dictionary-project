@@ -8,13 +8,29 @@ function App() {
       <h1>Dictionary App </h1>
       <Dictionary defaultWord="blossom" />
       <footer>
-        Coded by{" "}
-        <a href="https://www.linkedin.com/in" target="_blank" rel="noreferrer">
+        This project was coded by{" "}
+        <a
+          href="https://www.linkedin.com/in/kristamarikatajisto/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Krista-Mari Katajisto
-        </a>
-        <br />
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
-          GitHub
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/kkrista/react-dictionary-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://upbeat-nobel-41a5b2.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
         </a>
       </footer>
     </div>
