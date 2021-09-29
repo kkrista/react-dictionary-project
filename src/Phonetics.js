@@ -5,12 +5,12 @@ export default function Phonetics(props) {
   if (props.phonetic.audio) {
     return (
       <div className="Phonetics">
-        <h2>
+        <h3>
           <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
             <i className="fas fa-volume-up"></i>
           </a>{" "}
           /{props.phonetic.text}/
-        </h2>
+        </h3>
       </div>
     );
   } else {

@@ -2,9 +2,28 @@ body {
   margin: 0 auto;
   padding: 50px;
   font-family: "Roboto Slab", serif;
-  background-color: black;
+  background: linear-gradient(
+    172deg,
+    rgb(255, 251, 254) 0%,
+    rgb(250, 234, 247) 50%,
+    rgb(250, 205, 240) 100%
+  );
   color: #122932;
   text-align: center;
+}
+
+.App-header {
+  margin: 15px, 0;
+}
+
+.App-logo {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+h1 {
+  color: white;
 }
 
 a {
@@ -16,7 +35,12 @@ a:hover {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 13px;
+  color: black;
+  font-style: italic;
+  text-align: left;
+  margin-left: 33px;
+  margin-top: -12px;
 }
 
 @media (max-width: 767px) {

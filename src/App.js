@@ -1,12 +1,16 @@
 import "./App.css";
 import React from "react";
 import Dictionary from "./Dictionary";
+import logo from "./logo.png";
 
 function App() {
   return (
     <div className="App">
-      <h1>Dictionary App</h1>
-      <Dictionary defaultWord="blossom" />
+      <header className="App-header">
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
+      </header>
+
+      <Dictionary defaultWord="travel" />
       <footer>
         This project was coded by{" "}
         <a
